@@ -6,6 +6,9 @@ compiler:
 
 os:
   - linux
+arch:
+   - ppc64le
+   - amd64
 
 before_script:
   # Add an IPv6 config - see the corresponding Travis issue
